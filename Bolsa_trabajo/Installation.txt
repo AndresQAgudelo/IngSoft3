@@ -3,13 +3,5 @@
 3. Update your server settings on 'constants/db_config.php'
 4. Update your SMTP settings on 'constants/settings.php'
 
----------------------------------------------------------------
-->Please DO NOT steal my work tho! :)
-->I would really appriciate your feedback on this project eg: what i should add on the
-next version, what i should remove etc
-----------------------------------------------------------------
 
-gorchor@gmail.com
-+51 948445199
-https://platea21.blogspot.com/
 
