@@ -2,5 +2,5 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bwirejobs_db";
+$dbname = "bolsaempleo_db";
 ?>
