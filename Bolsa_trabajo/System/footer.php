@@ -7,7 +7,7 @@
                 
                     <div class="row">
                     
-                        <div class="col-sm-12 col-md-9">
+                        <div class="row-sm-12 col-md-9">
                         
                             <div class="row">
                             
@@ -72,7 +72,10 @@
                         <div class="col-sm-4 col-md-4">
                         
                             <ul class="bottom-footer-menu">
-                                <li><a >Desarrollado por @Utp-IngSofIII</a></li>
+                                <li><a >Ingenieria del Software III</a></li>
+                                <li><a >Universidad Tecnologica de Pereira</a></li>
+                                <li><a >Andres Quebrada - Andres Gonzales - Ander - Nicolas</a></li>
+
                             </ul>
                         
                         </div>
