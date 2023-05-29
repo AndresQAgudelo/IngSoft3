@@ -86,64 +86,9 @@ $page = 1;
 
 	<div class="container-wrapper">
 
-		<header id="header">
-
-			<nav class="navbar navbar-default navbar-fixed-top navbar-sticky-function">
-
-				<div class="container">
-					
-					<div class="logo-wrapper">
-						<div class="logo">
-							<a href="../"><img src="../images/logo.png" alt="Logo" /></a>
-						</div>
-					</div>
-					
-					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
-					
-						<ul class="nav navbar-nav" id="responsive-menu">
-						
-							<li>
-							
-								<a href="../">Inicio</a>
-								
-							</li>
-							
-							<li>
-								<a href="../job-list.php">Lista de empleos</a>
-
-							</li>
-							
-							<li>
-								<a href="../employers.php">Empresas</a>
-							</li>
-							
-							<li>
-								<a href="../employees.php">Personas</a>
-							</li>
-							
-							<li>
-								<a href="../contact.php">Contacto</a>
-							</li>
-
-						</ul>
-				
-					</div>
-
-					<div class="nav-mini-wrapper">
-						<ul class="nav-mini sign-in">
-							<li><a href="../logout.php">Cerrar Sesión</a></li>
-							<li><a href="./">Perfil</a></li>
-						</ul>
-					</div>
-				
-				</div>
-				
-				<div id="slicknav-mobile"></div>
-				
-			</nav>
-
-			
-		</header>
+		<?php
+		include 'header.php';
+		?>
 
 		<div class="main-wrapper">
 
@@ -416,99 +361,9 @@ $page = 1;
 			
 			</div>
 
-			<footer class="footer-wrapper">
-			
-				<div class="main-footer">
-				
-					<div class="container">
-					
-						<div class="row">
-						
-							<div class="col-sm-12 col-md-9">
-							
-								<div class="row">
-								
-									<div class="col-sm-6 col-md-4">
-									
-										<div class="footer-about-us">
-											<h5 class="footer-title">Sobre Platea21</h5>
-											<p>platea21 es un portal dedicado a la programacion web y escritorio 2018.</p>
-										
-										</div>
-
-									</div>
-									
-									<div class="col-sm-6 col-md-5 mt-30-xs">
-										<h5 class="footer-title">Enlaces Rapidos</h5>
-										<ul class="footer-menu clearfix">
-											<li><a href="../">Inicio</a></li>
-											<li><a href="../job-list.php">Lista de empleos</a></li>
-											<li><a href="../employers.php">Empresas</a></li>
-											<li><a href="../employees.php">Personas</a></li>
-											<li><a href="../contact.php">Contacto</a></li>
-											<li><a href="#">Ir Arriba</a></li>
-
-										</ul>
-									
-									</div>
-
-								</div>
-
-							</div>
-							
-							<div class="col-sm-12 col-md-3 mt-30-sm">
-							
-								<h5 class="footer-title">Contacto Platea21</h5>
-								
-								<p>Dirección : Tacna - Perú</p>
-								<p>Correo Electrónico : <a href="mailto:gorchor@gmail.com">gorchor@gmail.com</a></p>
-								<p>Teléfono: <a href="tel:+51948445199">+51948445199</a></p>
-								
-
-							</div>
-
-							
-						</div>
-						
-					</div>
-					
-				</div>
-				
-				<div class="bottom-footer">
-				
-					<div class="container">
-					
-						<div class="row">
-						
-							<div class="col-sm-4 col-md-4">
-					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Platea21</p>
-								
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-							
-								<ul class="bottom-footer-menu">
-									<li><a >Desarrollado por @gorchor</a></li>
-								</ul>
-							
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-								<ul class="bottom-footer-menu for-social">
-									<li><a href="<?php echo "$tw"; ?>"><i class="ri ri-twitter" data-toggle="tooltip" data-placement="top" title="twitter"></i></a></li>
-									<li><a href="<?php echo "$fb"; ?>"><i class="ri ri-facebook" data-toggle="tooltip" data-placement="top" title="facebook"></i></a></li>
-									<li><a href="<?php echo "$ig"; ?>"><i class="ri ri-instagram" data-toggle="tooltip" data-placement="top" title="instagram"></i></a></li>
-								</ul>
-							</div>
-						
-						</div>
-
-					</div>
-					
-				</div>
-			
-			</footer>
+		<?php
+		include 'footer.php';
+		?>
 			
 		</div>
 

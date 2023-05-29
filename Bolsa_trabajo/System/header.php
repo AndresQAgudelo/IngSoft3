@@ -5,9 +5,9 @@
 				<div class="container">
 					
 					<div class="logo-wrapper">
-						<div class="logo">
+						<!-- <div class="logo">
 							<a href="./"><img src="images/logo.png" alt="Logo" /></a>
-						</div>
+						</div> -->
 					</div>
 					
 					<div id="navbar" class="navbar-nav-wrapper navbar-arrow">
@@ -46,7 +46,7 @@
 						<?php
 						if ($user_online == true) {
 						print '
-						    <li><a href="logout.php">Logout</a></li>
+						    <li><a href="logout.php">salir</a></li>
 							<li><a href="'.$myrole.'">Perfil</a></li>';
 						}else{
 						print '
